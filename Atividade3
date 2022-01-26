@@ -1,0 +1,19 @@
+<?php          
+
+$numero_cigarros_dia = 10;
+
+$cigarros_ano = (($numero_cigarros_dia)*365);
+
+$total_cigarros = (($cigarros_ano)*3);
+
+$minutos_perdidos = (($total_cigarros)*11);
+
+$horas_perdidas = (($minutos_perdidos)/60);
+//para obter as horas perdidas
+
+$dias_perdidos = (($horas_perdidas)/24);
+//para obter os dias perdidos
+
+print  "Fumando 10 cigarros por dia durante 3 anos, você perde $dias_perdidos dias de vida.";
+
+?>
